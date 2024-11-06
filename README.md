@@ -25,22 +25,23 @@ During data cleaning, I noticed that the 'saledate' column was formatted in a wa
 ````
 import pandas as pd
 
-file = pd.read_csv("C:/Users/HP/Documents/car_prices.csv")
-file.head()
-file.info()
-file['saledate'].head()
-file['saledate'] = file['saledate'].str.replace(r"\s\(.+\)", "", regex=True)
-file['saledate'] = pd.to_datetime(file['saledate'], errors='coerce',utc='True')
-file['saledate'] = pd.to_datetime(file['saledate'], format="%a %b %d %Y %H:%M:%S %p %Z", errors='coerce')
-file['saledate'].dtype
-file['saledate'].head()
-file.to_csv("C:/Users/HP/Documents/modified_car_prices.csv", index=False)
+file = pd.read_csv("C:/Users/HP/Documents/car_prices.csv") # import the file
+file.head() # view the top rows of the dataset
+file.info() # here we can see that the 'saledate' column is in object type 
+file['saledate'].head() 
+
+file['saledate'] = pd.to_datetime(file['saledate'], errors='coerce',utc='True') # use the datetime function to convert the column to datetime
+
+file['saledate'].dtype # conversion successful
+file['saledate'].head() # we can see that the date and time has been reset to UTC format
+file.to_csv("C:/Users/HP/Documents/modified_car_prices.csv", index=False) # save the file in csv format
 
 ````
 
 ### Visualization
 
 The dashboard includes a variety of visuals—horizontal and vertical bar charts, maps, donut charts, and tables—to present the data clearly and effectively.
+
 ![Screenshot 2024-11-06 202220](https://github.com/user-attachments/assets/39933682-4925-4e3c-a4c9-663084d6d5df)
 
 ![Screenshot 2024-11-06 202320](https://github.com/user-attachments/assets/7d4d320c-5af7-4bd2-b567-a306a7661902)
