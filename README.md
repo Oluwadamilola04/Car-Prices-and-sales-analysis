@@ -6,18 +6,18 @@ I recently completed a Microsoft Power BI dashboard project using a Car Prices d
 
 I began by opening the dataset in Microsoft Excel to get an initial overview. From this, I identified the following research questions:
 
-•	Total number of auto dealerships
-•	Total units sold
-•	Total revenue generated
-•	Percentage of vehicles with automatic vs. manual transmission
-•	Most popular car models
-•	Most expensive car models
-•	How vehicle condition affects overall sales
-•	Number of auto dealerships per state
-•	Most preferred vehicle colors among buyers
-•	States with the highest car sales and revenue from vehicle sales
-•	Car condition most associated with high sales
-•	Yearly overall sales performance
+*	Total number of auto dealerships
+*	Total units sold
+*	Total revenue generated
+*	Percentage of vehicles with automatic vs. manual transmission
+*	Most popular car models
+*	Most expensive car models
+*	How vehicle condition affects overall sales
+*	Number of auto dealerships per state
+*	Most preferred vehicle colors among buyers
+*	States with the highest car sales and revenue from vehicle sales
+*	Car condition most associated with high sales
+*	Yearly overall sales performance
 
 ### Data Cleaning and Loading
 
@@ -49,14 +49,14 @@ The dashboard includes a variety of visuals—horizontal and vertical bar charts
 
 ### Observations and Findings
 
-•	Transmission Preference: Cars with automatic transmissions are far more popular than those with manual transmissions.
-•	Top Car Brand: Ford is the most sought-after brand among customers.
-•	Body Type: Sedans are the most preferred body type in the U.S.
-•	Vehicle Condition: Cars in good, excellent, and average conditions have significantly higher sales than those in poor condition, likely due to reliability concerns.
-•	Revenue by State: Florida generates the highest revenue from car sales, followed closely by California and Pennsylvania.
-•	Dealership Distribution: California has the most auto dealerships, with Florida and Pennsylvania following closely.
-•	Color Preference: Black is the most preferred exterior color, with white as a close second.
-•	Most Expensive Car: The Ferrari 458 Italia is the most expensive car sold in the dataset.
-•	Mileage and Profit: Low-mileage cars generated the highest profits over time.
+*	Transmission Preference: Cars with automatic transmissions are far more popular than those with manual transmissions.
+*	Top Car Brand: Ford is the most sought-after brand among customers.
+*	Body Type: Sedans are the most preferred body type in the U.S.
+*	Vehicle Condition: Cars in good, excellent, and average conditions have significantly higher sales than those in poor condition, likely due to reliability concerns.
+*	Revenue by State: Florida generates the highest revenue from car sales, followed closely by California and Pennsylvania.
+*	Dealership Distribution: California has the most auto dealerships, with Florida and Pennsylvania following closely.
+*	Color Preference: Black is the most preferred exterior color, with white as a close second.
+*	Most Expensive Car: The Ferrari 458 Italia is the most expensive car sold in the dataset.
+*	Mileage and Profit: Low-mileage cars generated the highest profits over time.
 
 
