@@ -30,11 +30,14 @@ file.head() # view the top rows of the dataset
 file.info() # here we can see that the 'saledate' column is in object type 
 file['saledate'].head() 
 
-file['saledate'] = pd.to_datetime(file['saledate'], errors='coerce',utc='True') # use the datetime function to convert the column to datetime
+file['saledate'] = pd.to_datetime(file['saledate'], errors='coerce',utc='True')
+# use the datetime function to convert the column to datetime
 
 file['saledate'].dtype # conversion successful
-file['saledate'].head() # we can see that the date and time has been reset to UTC format
-file.to_csv("C:/Users/HP/Documents/modified_car_prices.csv", index=False) # save the file in csv format
+file['saledate'].head() # we can see that the date and time has been
+# reset to UTC format
+file.to_csv("C:/Users/HP/Documents/modified_car_prices.csv", index=False)
+# save the file in csv format
 
 ````
 
